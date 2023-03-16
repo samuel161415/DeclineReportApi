@@ -40,6 +40,7 @@ const atmConditionForE= (lines,report,find,atmName,total,eachTotal)=>{
         
         let Trxn=lines[i].slice(27,lines[i].length)
         let c=Trxn[0]
+        console.log('e*',c);
       
         if(c=='5'){
           let mValue=Trxn[12]+Trxn[13]

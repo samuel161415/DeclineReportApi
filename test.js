@@ -1,4 +1,12 @@
-//  var moment = require('moment');
+ var moment = require('moment');
+ s=moment(new Date())
+//  console.log('pure date ',moment(s).format('YYYY-MM-DD').toString());
+console.log(s);
+s.subtract(1,'days')
+console.log(s);
+//  console.log(moment(s))
+//  s=moment(s).subtract(1,'days')
+//  console.log(s);
 //  const startDate='2023-02-09'
 //  const endDate='2023-02-10'
 //  const fs=require("fs")
@@ -10,25 +18,25 @@
 
 // console.log("sami")
 // setTimeout()
-const population = {
-    male: 4,
-    female: 93,
-    others: 10
-  };
+// const population = {
+//     male: 4,
+//     female: 93,
+//     others: 10
+//   };
   
-  let genders = Object.keys(population);
-  genders.map((val)=>{
-    console.log(population[val]);
-  })
+//   let genders = Object.keys(population);
+//   genders.map((val)=>{
+//     console.log(population[val]);
+//   })
   
-  console.log(genders);
+//   console.log(genders);
 
-  const a={'sami':[1,2,3],'bety':[5,6,7]}
-  let newArray = Object.entries(a)
+//   const a={'sami':[1,2,3],'bety':[5,6,7]}
+//   let newArray = Object.entries(a)
 
- let map = new Map(newArray);
-  //const b= Array.from(a)
-  console.log(map);
+//  let map = new Map(newArray);
+//   //const b= Array.from(a)
+//   console.log(map);
 
  //const 
 
